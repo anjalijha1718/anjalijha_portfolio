@@ -596,6 +596,53 @@ section .title::after{
     background: crimson!important;
 }
 
+/* Experience section styling */
+
+.experience {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set text color to white */
+}
+.experience .title::after{
+    content: "My Professional Journey";
+}
+.experience .experience-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.experience .experience-content .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.experience .experience-content .card:hover{
+    background: crimson;
+}
+.experience .experience-content .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.experience .experience-content .card:hover .box{
+    transform: scale(1.05);
+}
+.experience .experience-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.experience .experience-content .card p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
 /* contact section styling */
 
 .contact {
@@ -807,6 +854,9 @@ footer span a:hover{
         font-size: 20px;
     }
     .services .serv-content .card{
+        width: 100%;
+    }
+    .experience .experience-content .card{
         width: 100%;
     }
 }
