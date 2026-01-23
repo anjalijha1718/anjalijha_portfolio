@@ -6,7 +6,7 @@
 - [x] Adde CSS styles for oval skill blocks
 
 ## Projects Section
-- [x] Make all project containers the same size (set fixed height for uniformity)
+- [x] Made all project containers the same size (set fixed height for uniformity)
 
 ## Experience Section
 - [x] Added certificate links to each experience block:
