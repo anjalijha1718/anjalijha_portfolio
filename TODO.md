@@ -2,8 +2,8 @@
 
 ## Skills Section
 - [x] Replace progress bars with oval-shaped skill blocks (grey borders, no percentages)
-- [x] Update skill list to: HTML, CSS, JavaScript, React.js, Node.js, Docker, Kubernetes, CI/CD, AWS, Tailwind, Bootstrap
-- [x] Adde CSS styles for oval skill blocks
+- [x] Updated skill list to: HTML, CSS, JavaScript, React.js, Node.js, Docker, Kubernetes, CI/CD, AWS, Tailwind, Bootstrap
+- [x] Add CSS styles for oval skill blocks
 
 ## Projects Section
 - [x] Made all project containers the same size (set fixed height for uniformity)
