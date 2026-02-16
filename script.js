@@ -1,3 +1,4 @@
+// This is a JavaScript File
 $(document).ready(function(){
     // Connect button modal functionality
     var connectBtn = document.getElementById("connectBtn");
